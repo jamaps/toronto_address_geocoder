@@ -8,4 +8,6 @@ A custom geocoder that computes points from address strings for Toronto. Written
 
 **tor_geocoder_permits** is a modification of the above file to geocode the ~450,000 building permits that have been issued in Toronto since 2001.
 
-**web_geocoder** is a simple web geocoder which can be used for the odd instances where an address fails to geocode. It geocodes the remaining points.csv using geopy
+**web_geocoder.py** is a simple web geocoder which can be used for the odd instances where an address fails to geocode. It geocodes the remaining points.csv using geopy
+
+**linear_geocoder.py** geocodes address strings from a csv to address ranges on street segements and then counts how many are on each segment - a precurser to a linear density map. This example uses 2million+ parking tickets issued in toronto in 2015
