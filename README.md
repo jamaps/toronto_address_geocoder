@@ -1,4 +1,4 @@
-###  Toronto Address Geocoder
+#  Toronto Address Geocoder
 
 A custom geocoder that computes points from address strings for Toronto. Written in Python using the City of Toronto's open dataset of [address points](http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=91415f9cd70bb210VgnVCM1000003dd60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD). This was written to quickly batch geocode large datasets (over 10,000) which would be too time intensive (or time out!) via web geocoding APIs.
 
